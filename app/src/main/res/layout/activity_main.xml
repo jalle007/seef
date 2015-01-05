@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+   >
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black"
+        >
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+        <View
+            android:id="@+id/hotspot"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rectangle"/>
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:id="@+id/imgPlay"-->
+        <!--android:layout_gravity="center_vertical|center_horizontal"-->
+        <!--android:src="@drawable/play"-->
+        <!--android:clickable="true"-->
+        <!--android:background="@android:color/transparent"/>-->
+
+</FrameLayout>
+</RelativeLayout>
