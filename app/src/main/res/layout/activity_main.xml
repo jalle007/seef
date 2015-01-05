@@ -21,9 +21,10 @@
 
         <View
             android:id="@+id/hotspot"
-            android:layout_width="20dp"
+            android:layout_width="200dp"
             android:layout_height="50dp"
-            android:background="@drawable/rectangle"/>
+            android:background="@drawable/rectangle"
+            android:visibility="gone"/>
 
     <!--<ImageButton-->
         <!--android:layout_width="wrap_content"-->
